@@ -11,7 +11,7 @@ import Genetics
 data HairStyle = HairStyle
 
 curlyHair = Allele "Curly Hair" 'C' Dominant
-straightHair = Allele "Straight Hair" 's' Recessive
+straightHair = Allele "Straight Hair" 'c' Recessive
 
 instance Gene HairStyle where
     geneId = GeneId "Hair Style"
