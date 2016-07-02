@@ -14,7 +14,6 @@ curlyHair = Allele "Curly Hair" 'C' Dominant
 straightHair = Allele "Straight Hair" 'c' Recessive
 
 instance Gene HairStyle where
-    geneId = GeneId "Hair Style"
     alleles = [curlyHair, straightHair]
 
 -- Hair Color
@@ -26,5 +25,4 @@ blondeHair = Allele "Blonde Hair" 'b' Recessive
 redHair = Allele "Red Hair" 'r' Recessive
 
 instance Gene HairColor where
-    geneId = GeneId "Hair Color"
     alleles = [brownHair, blondeHair, redHair]

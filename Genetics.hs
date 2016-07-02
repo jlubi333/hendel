@@ -33,12 +33,8 @@ instance Eq (Allele g) where
 -- Gene
 --------------------------------------------------------------------------------
 
-newtype GeneId g = GeneId String
 class Gene g where
     alleles :: [Allele g]
-    geneId :: GeneId g
-    geneIdFromGene :: g -> GeneId g
-    geneIdFromGene _ = geneId
 
 --------------------------------------------------------------------------------
 -- Genotype
