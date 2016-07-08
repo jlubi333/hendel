@@ -8,7 +8,7 @@ import Genetics
 
 -- Hair Style
 
-data HairStyle = HairStyle
+data HairStyle
 
 curlyHair = Allele "Curly Hair" 'C' Dominant
 straightHair = Allele "Straight Hair" 'c' Recessive
@@ -18,7 +18,7 @@ instance Gene HairStyle where
 
 -- Hair Color
 
-data HairColor = HairColor
+data HairColor
 
 brownHair = Allele "Brown Hair" 'B' Dominant
 blondeHair = Allele "Blonde Hair" 'b' Recessive
